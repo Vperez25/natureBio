@@ -1,0 +1,44 @@
+
+main{
+
+    min-height: 500px;
+}
+
+.confirmation-container {
+    text-align: center;
+    margin: 6rem auto;
+    padding: 1rem;
+    max-width: 600px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.confirmation-container h2 {
+    font-size: 2rem;
+    color: darkorange;
+}
+
+.confirmation-container p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.confirmation-container .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: darkorange;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.confirmation-container .btn:hover {
+    background-color: orangered;
+}

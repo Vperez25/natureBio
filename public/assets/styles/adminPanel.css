@@ -1,0 +1,143 @@
+
+.admin-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    margin: 0;
+    background: linear-gradient(180deg, #2B702B, #519351);
+
+}
+
+.admin-info p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: white;
+}
+
+
+.logout-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #102613;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logout-container h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.logout-form {
+    margin: 0;
+}
+
+.logout-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #d32f2f;
+}
+
+
+
+.nav-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 2rem;
+    margin: auto;
+    background: #CBCBCB;
+}
+
+.nav-card {
+    background-color: #CBCBCB;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-card img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+
+.nav-card p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.nav-card a{
+    text-decoration: none;
+    color: #555;
+}
+
+.nav-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nav-card:active {
+    transform: translateY(2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h1, h2 {
+    text-align: center;
+    color: white;
+}
+
+
+
+
+button, .button-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #222;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover, .button-link:hover {
+    background-color: #575757;
+}
+
+
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+

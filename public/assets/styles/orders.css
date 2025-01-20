@@ -1,0 +1,57 @@
+main{
+    min-height: 600px;
+
+}
+
+.orders-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.order-summary {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.order-summary h2 {
+    margin-bottom: 0.5rem;
+}
+
+.order-summary p {
+    margin: 0.5rem 0;
+}
+
+.view-order-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.view-order-button:hover {
+    background: #4b7d2b;
+}
+
+
+
+.back-to-account {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.back-to-account a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.back-to-account a:hover {
+    text-decoration: underline;
+}

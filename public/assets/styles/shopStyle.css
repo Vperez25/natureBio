@@ -1,0 +1,115 @@
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    justify-items: start;
+    padding: 5rem;
+
+
+}
+
+
+.contenedorTarjeta{
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 5rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img{
+
+    height: 200px;
+    border-radius: 5px;
+}
+.h2{
+    margin-top: 0;
+
+}
+
+
+.contenedorBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.botonTarjeta{
+    width: 150px;
+    height: 40px;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    gap: 0.5rem;
+}
+
+.pagination-button {
+    padding: 0.5rem 1rem;
+    height: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.pagination-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.pagination-button.active {
+    background-color: white;
+    pointer-events: none;
+    border: 2px solid black;
+}
+
+
+
+@media screen and (max-width: 522px) {
+
+    main {
+        padding: 2rem;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+
+    .contenedorTarjeta {
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .img {
+        height: 150px;
+    }
+
+
+    .h2 {
+        font-size: 18px;
+    }
+
+    .botonTarjeta {
+        width: 100px;
+
+    }
+
+
+}

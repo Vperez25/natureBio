@@ -1,0 +1,87 @@
+main{
+    min-height: 600px;
+
+}
+
+.personal-info-page {
+    padding: 2rem;
+}
+
+.personal-info-page form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.personal-info-page form input {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.personal-info-page form button {
+    padding: 1rem;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.personal-info-page form button:hover {
+    background: var(--primary-color);
+}
+
+.personal-info-page h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.personal-info-page label {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.personal-info-page input {
+    font-size: 1rem;
+}
+.back-to-account {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.back-to-account a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.back-to-account a:hover {
+    text-decoration: underline;
+}
+.success-message {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+.error-message {
+    background-color: #f44336;
+    color: white;
+    padding: 15px;
+
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+.success-message a, .error-message a {
+    color: white;
+    text-decoration: underline;
+}

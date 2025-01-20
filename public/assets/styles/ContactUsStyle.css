@@ -1,0 +1,99 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/img.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.25);
+    background-blend-mode: overlay;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+form {
+    margin: 8% auto;
+    max-width: 300px;
+    padding: 20px;
+    background: lightgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+input, textarea ,select{
+    font-family: Montserrat, sans-serif;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: var(--font-size-medium);
+    color: #333;
+    background: #f9f9f9;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+label {
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+select{
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+.formButton {
+    width: 100%;
+    background: var(--primary-color);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1::after {
+    content: " - for inquiries please fill out the form";
+    color: var(--primary-color);
+    font-style: italic;
+    font-size: 0.6em;
+    margin-left: 10px;
+}
+
+label::first-letter {
+    color: var(--primary-color);
+}
+.success-message {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+.error-message {
+    background-color: #f44336;
+    color: white;
+    padding: 15px;
+
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+.success-message a, .error-message a {
+    color: white;
+    text-decoration: underline;
+}
